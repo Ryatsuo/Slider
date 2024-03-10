@@ -65,6 +65,8 @@
   color: white;
   border: solid 2px #eee;
   transition: 0.3s ease-in-out;
+  margin-top: 1rem;
+  margin-left: 8px;
 }
 
 .main button:hover {
@@ -102,4 +104,28 @@
   margin-left: 0.5rem;
   font-weight: 300;
   font-size: 0.7rem;
+}
+
+.button {
+  display: flex;
+  position: absolute;
+  z-index: 120;
+  bottom: 15%;
+  left: 25%;
+}
+
+.button button {
+  width: 3rem;
+  border-radius: 50%;
+  height: 3rem;
+  color: white;
+  background-color: rgba(220, 220, 220, 0.3);
+  border-color: rgba(220, 220, 220, 0);
+  margin: 0.3rem;
+  transition: 0.5s;
+}
+
+.button button:hover {
+  background-color: white;
+  color: black;
 }
